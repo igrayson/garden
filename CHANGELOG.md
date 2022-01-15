@@ -1,4 +1,20 @@
 
+<a name="0.12.34-0"></a>
+## [0.12.34-0](https://github.com/garden-io/garden/compare/0.12.33...0.12.34-0) (2022-01-11)
+
+### Bug Fixes
+
+* **core:** properly handle sparse build deps ([2fb8a119](https://github.com/garden-io/garden/commit/2fb8a119))
+* **k8s:** fix issues with mutagen symlink directory ([7c57b69c](https://github.com/garden-io/garden/commit/7c57b69c))
+* **k8s:** allow any style of path for kubeconfig field ([6e6d4c45](https://github.com/garden-io/garden/commit/6e6d4c45))
+* **template:** template string in helper arguments weren't resolved ([0157fe0d](https://github.com/garden-io/garden/commit/0157fe0d))
+
+### Features
+
+* **config:** add ${datetime.*} template context ([78cd007f](https://github.com/garden-io/garden/commit/78cd007f))
+* **config:** add ${git.commitHash} and ${git.originUrl} template fields ([246b9f67](https://github.com/garden-io/garden/commit/246b9f67))
+* **template:** add indent helper function ([c90ec372](https://github.com/garden-io/garden/commit/c90ec372))
+
 <a name="0.12.33"></a>
 ## [0.12.33](https://github.com/garden-io/garden/compare/0.12.32...0.12.33) (2021-12-13)
 
