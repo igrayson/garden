@@ -62,6 +62,7 @@ so that different users don't end up "competing" with different configurations o
 To initialize or update your cluster-wide services, run:
 
 ```sh
+garden scan
 garden --env=<environment-name> plugins kubernetes cluster-init
 ```
 
